@@ -24,9 +24,6 @@ is not available.
 5. Run snyk command with Reachable Vulnerabilities flag (`snyk test --reachable` or `snyk monitor --reachable`); you should see the vulnerability `SNYK-JAVA-ORGND4J-72550` marked as reachable
 and the function call path to the vulnerability
 
-## For Gradle 
-1. Make sure you build the artifacts with `./gradlew build`
-2. To see test results run `snyk test --file=build.gradle --reachable` or monitor: `snyk monitor --file=build.gradle --reachable`
 ---
 
 *Note: Once the java application is run, `malicious_file.zip` will be deleted by it. To run it again, run `git checkout .` prior
